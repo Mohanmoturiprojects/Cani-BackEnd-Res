@@ -64,11 +64,7 @@ public class CaniController {
     
     @GetMapping("/voicetest")
     public String getVoiceData() {
-    	return "According to a listing on ExportersIndia, KQubeSolutions is a manufacturer located in Secunderabad, Telangana, India. ExportersIndia+1\r\n"
-    			+ "Their primary product is egg shell powder (Grade A) with a quoted price range of ₹500–₹600 per kg and a minimum order quantity (MOQ) of 10 kg. ExportersIndia\r\n"
-    			+ "The company claims it will also in future supply chemicals and digital services. ExportersIndia\r\n"
-    			+ "The business name “KQUBESOLUTIONS” appears to have been formally established in 2022 per the listing. ExportersIndia+1\r\n"
-    			+ "The “About” listing indicates a small size: 6–20 employees";
+    	return "According to a listing on ExportersIndia, KQubeSolutions is a manufacturer located in Secunderabad, Telangana, India.";
     }
     
     @GetMapping("/speechtest")
